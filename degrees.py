@@ -1,4 +1,4 @@
-check50 ai50/projects/2024/x/degreesimport csv
+import csv
 import sys
 
 from util import Node, StackFrontier, QueueFrontier
@@ -11,7 +11,6 @@ people = {}
 
 # Maps movie_ids to a dictionary of: title, year, stars (a set of person_ids)
 movies = {}
-
 
 def load_data(directory):
     """
