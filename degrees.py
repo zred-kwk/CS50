@@ -1,4 +1,4 @@
-import csv
+check50 ai50/projects/2024/x/degreesimport csv
 import sys
 
 from util import Node, StackFrontier, QueueFrontier
